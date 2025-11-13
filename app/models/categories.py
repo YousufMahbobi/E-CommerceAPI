@@ -17,7 +17,7 @@ class Category(Base):
             "categories.id",
             ondelete="SET NULL",
         ),
-        nullable=False
+        nullable=True
     )
 
     parent_category: Mapped["Category"] = relationship(

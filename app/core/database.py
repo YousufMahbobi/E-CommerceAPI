@@ -9,7 +9,7 @@ class Base(AsyncAttrs, DeclarativeBase):
 
 
 engine = create_async_engine(
-    settings.SQLALCHEMY_DATABASE_URI,
+    settings.DATABASE_URL,
     echo=True,
 )
 

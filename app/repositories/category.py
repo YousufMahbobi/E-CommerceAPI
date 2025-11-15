@@ -1,4 +1,4 @@
-from sqlalchemy import select, false
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.category import Category
 

@@ -12,7 +12,7 @@ import asyncio
 
 from app.core.config import settings
 from app.core.database import Base
-from app.models.categories import Category
+from app.models.category import Category
 
 
 # --- REPLACE DEFAULT CONFIG ---
